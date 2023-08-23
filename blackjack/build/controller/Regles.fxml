@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+<VBox fx:id="regles" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="50.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReglesController">
+   <children>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      La partie oppose individuellement chaque joueur a la banque. Le but est de battre le croupier sans 		 
+      </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      	depasser le score de 21. Des qu'un joueur fait plus que 21, on dit qu'il "brule" et il perd sa mise initiale.
+      </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+		Les valeurs des cartes sont les suivantes :      
+	  </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      	- De 2 a 9 : valeur nominale de la carte 
+      </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      	- De 10 au roi (surnommees "buche")  : 10 points 
+      </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      	- As : 1 ou 11 points (au choix du joueur).
+      </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      	Un Blackjack est la situation ou le joueur recoit, des le debut du jeu, un As et une buche.
+      </Label>
+      <Label style="-fx-font-size:25px;"  prefWidth="1500" >
+      	 Si le joueur atteint 21 points avec plus de deux cartes, on compte 21 points et non Blackjack.
+      </Label>   
+	  <Button onAction="#retourMenu" prefHeight="20" prefWidth="250" style="-fx-font-size:50px;">Retour</Button>	
+   </children>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane fx:id="anchorPane" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.JeuController" >
+	<children>
+		<Button onAction="#newGame" layoutX="1600.0" layoutY="950.0" prefHeight="8.0" prefWidth="170" style="-fx-font-size:20px;">Nouvelle partie</Button>	
+		<Button onAction="#retourMenu" layoutX="1800.0" layoutY="950.0" prefHeight="8.0" prefWidth="95" style="-fx-font-size:20px;">Retour</Button>	
+		<Button fx:id="piocherButton" onAction="#piocherCarte" layoutX="750" layoutY="950" prefHeight="20" prefWidth="180" style="-fx-font-size:30px;">Piocher</Button>			
+		<Button fx:id="passerButton" onAction="#passer" layoutX="990" layoutY="950" prefHeight="20" prefWidth="180" style="-fx-font-size:30px;">Passer</Button>	
+		<Label fx:id="joueurLabel" layoutX="735.0" layoutY="860" text="Tour du joueur numero 1" style="-fx-font-size:40px;" />	
+		<Label fx:id="winnerLabel" layoutX="750.0" layoutY="20" text="" style="-fx-font-size:50px;" />	
+	</children>
+</AnchorPane>
+

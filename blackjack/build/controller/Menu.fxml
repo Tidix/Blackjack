@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+
+
+
+
+<VBox fx:id="menu" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="50.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <children>
+     <ImageView>    
+        <image>
+        	<Image url="@logo_blackjack.png" />
+      	</image>
+	  </ImageView>
+      <Button onAction="#jouer" prefHeight="20" prefWidth="250" style="-fx-font-size:50px;">Jouer</Button>		
+	  <Button onAction="#afficherRegle" prefHeight="20" prefWidth="250" style="-fx-font-size:50px;">Regles</Button>		
+	  <Button onAction="#quitter" prefHeight="20" prefWidth="250" style="-fx-font-size:50px;">Quitter</Button>	
+   </children>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</VBox>
