@@ -12,7 +12,7 @@ L’objectif de ce projet est de réaliser des développements autour de jeux de
 
 Projet réalisé par :
 
-DELAMARE Clément (TP2.B) 		-> View du MVC
+DELAMARE Clément (TP2.B) 		-> View du MVC + main + build
 LEVEZIEL Damien (TP2.B) 		-> Modèle (cartes + blackjack)
 GOUBARD-LANGERS Paul (TP2.B) 		-> tests
 ROUSSEAU Pierre-Alexandre (TP2.B)	-> IA des joueurs
